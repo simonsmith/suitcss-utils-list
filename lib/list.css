@@ -1,0 +1,56 @@
+/**
+ * @define utilities
+ */
+
+:root {
+  --list-indentSize: 40px;
+}
+
+/*
+ * Set the left indent. Browser default is 40px
+ */
+
+.u-listIndent {
+  padding-left: var(--list-indentSize) !important;
+}
+
+/*
+ * Remove all list style
+ */
+
+.u-listNone {
+  list-style-type: none !important;
+}
+
+/*
+ * Solid bullets
+ * `Bullet` is used instead of `Disc` for easier understanding of visual style
+ */
+
+.u-listBullet {
+  list-style-type: disc !important;
+}
+
+/*
+ * Hollow bullets found on nested lists
+ */
+
+.u-listBulletNested {
+  list-style-type: circle !important;
+}
+
+/*
+ * Square list style
+ */
+
+.u-listSquare {
+  list-style-type: square !important;
+}
+
+/*
+ * Numbered list style
+ */
+
+.u-listNumber {
+  list-style-type: decimal !important;
+}

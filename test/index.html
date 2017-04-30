@@ -1,0 +1,83 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>List [utility] - SUIT CSS</title>
+<meta name="viewport" content="initial-scale=1, width=device-width">
+<link rel="stylesheet" href="../build/test.css">
+<style>
+ .dev-highlight {
+    background: lightblue;
+  }
+  .reset-list {
+    padding: 0;
+  }
+</style>
+<div class="Test">
+  <h1 class="Test-title">SUIT CSS: <a href="https://github.com/simonsmith/suit-utils-flex">list</a> tests</h1>
+
+  <h2 class="Test-describe">.u-listNone</h2>
+  <h3 class="Test-it">it should not render any list style on parent list</h3>
+  <div class="Test-run dev-highlight">
+    <ul class="u-listNone">
+      <li>ul item 1</li>
+      <li>ul item 2</li>
+      <li>
+        <ul>
+          <li>&gt; ul item 1</li>
+          <li>&gt; ul item 2</li>
+        </ul>
+      </li>
+      <li>ul item 3</li>
+    </ul>
+  </div>
+
+  <h2 class="Test-describe">.u-listBullet</h2>
+  <h3 class="Test-it">it should render solid bullet circles</h3>
+  <div class="Test-run dev-highlight">
+    <ul class="u-listBullet">
+      <li>ul item 1</li>
+      <li>ul item 2</li>
+      <li>ul item 3</li>
+    </ul>
+  </div>
+
+  <h2 class="Test-describe">.u-listBulletNested</h2>
+  <h3 class="Test-it">it should render hollow bullet circles</h3>
+  <div class="Test-run dev-highlight">
+    <ul class="u-listBulletNested">
+      <li>ul item 1</li>
+      <li>ul item 2</li>
+      <li>ul item 3</li>
+    </ul>
+  </div>
+
+  <h2 class="Test-describe">.u-listNumber</h2>
+  <h3 class="Test-it">it should render decimal numbers</h3>
+  <div class="Test-run dev-highlight">
+    <ul class="u-listNumber">
+      <li>ul item 1</li>
+      <li>ul item 2</li>
+      <li>ul item 3</li>
+    </ul>
+  </div>
+
+  <h2 class="Test-describe">.u-listSquare</h2>
+  <h3 class="Test-it">it should render solid bullet squares</h3>
+  <div class="Test-run dev-highlight">
+    <ul class="u-listSquare">
+      <li>ul item 1</li>
+      <li>ul item 2</li>
+      <li>ul item 3</li>
+    </ul>
+  </div>
+
+  <h2 class="Test-describe">.u-listIndent</h2>
+  <h3 class="Test-it">it should set the default left padding on a list</h3>
+  <div class="Test-run dev-highlight">
+    <ul class="u-listIndent reset-list">
+      <li>ul item 1</li>
+      <li>ul item 2</li>
+      <li>ul item 3</li>
+    </ul>
+  </div>
+
+</div>
