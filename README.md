@@ -13,6 +13,7 @@ SUIT CSS list utilities
 
 ## Available classes
 
+* `u-listReset` - Remove default margin and padding
 * `u-listIndent` - Set the left indent. Default is `40px` as found in browser
   defaults
 * `u-listNone` - Remove list style
