@@ -88,3 +88,6 @@ Basic visual tests are in `test/index.html`.
 * Firefox
 * Safari
 * Internet Explorer 8+
+* Android 4.1+
+* iOS 6+
+* Windows phone 8.1+
