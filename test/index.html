@@ -12,7 +12,23 @@
   }
 </style>
 <div class="Test">
-  <h1 class="Test-title">SUIT CSS: <a href="https://github.com/simonsmith/suit-utils-flex">list</a> tests</h1>
+  <h1 class="Test-title">SUIT CSS: <a href="https://github.com/simonsmith/suit-utils-list">list</a> tests</h1>
+
+  <h2 class="Test-describe">.u-listReset</h2>
+  <h3 class="Test-it">it should remove default margin and padding on parent list</h3>
+  <div class="Test-run dev-highlight">
+    <ul class="u-listReset">
+      <li>ul item 1</li>
+      <li>ul item 2</li>
+      <li>
+        <ul>
+          <li>&gt; ul item 1</li>
+          <li>&gt; ul item 2</li>
+        </ul>
+      </li>
+      <li>ul item 3</li>
+    </ul>
+  </div>
 
   <h2 class="Test-describe">.u-listNone</h2>
   <h3 class="Test-it">it should not render any list style on parent list</h3>
